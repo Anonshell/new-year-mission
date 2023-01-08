@@ -54,3 +54,35 @@
   width: 70%;
   margin: auto;
 }
+
+.bg {
+  background-image: url("./images/watch.png"), url("./images/gradient2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+
+.bg button {
+  background-color: white;
+  color: orangered;
+
+  padding: 20px 30px;
+  font-size: 20px;
+}
+.cont4 {
+  display: flex;
+}
+
+.blackw {
+  background-color: rgb(8, 8, 8);
+  color: white;
+
+  
+}
