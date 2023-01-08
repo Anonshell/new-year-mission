@@ -56,9 +56,14 @@
 }
 
 .bg {
-  background-image: url("./images/watch.png"), url("./images/gradient2.png");
+  margin-top: 130px;
+  background-image: url("./images/gradient2.png"), url("./images/watch.png");
+
   background-repeat: no-repeat;
   background-size: cover;
+
+  padding: 50px;
+  margin: 200px;
 }
 
 .bg h1 {
@@ -71,18 +76,41 @@
 
 .bg button {
   background-color: white;
-  color: orangered;
+  color: #f15b22;
 
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
   padding: 20px 30px;
   font-size: 20px;
 }
 .cont4 {
   display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
 }
 
-.blackw {
+.footerbw {
+  padding: 0px;
   background-color: rgb(8, 8, 8);
   color: white;
-
+}
+.subscribebtn {
+  margin-top: 10px;
+  color: #f15b22;
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-weight: 800;
   
+}
+.textinp {
+  padding: 10px;
+  border: 1px solid white;
+  background-color: #151414;
+  color: #F3F3F3
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
 }
