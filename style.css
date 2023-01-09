@@ -111,5 +111,10 @@
   color: #F3F3F3
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18px;l
+}
+
+
+.element2 ul li{
+  list-style: none;
 }
